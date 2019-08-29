@@ -1,0 +1,1 @@
+bazel build //test/common/network:utility_test
