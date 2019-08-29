@@ -3,8 +3,9 @@ image:
 tasks:
   - command: . .bashrc && echo Demo Bazel && ./run.sh
   - command: . .bashrc && bazel build //source/common/network:utility_lib
-  - command: . .bashrc && gp open Dockerfile
-  - command: . .bashrc && gp open .gitpod.yml
+  - command: . .bashrc && bazel build //test/common/network:utility_test
   - command: . .bashrc && gp open DEMO-COMMAND.md
+# - command: . .bashrc && gp open Dockerfile
+# - command: . .bashrc && gp open .gitpod.yml
 # - command: . .bashrc && echo Demo Scan-Build && cd ex-scan-build && ./run.sh
 # - command: . .bashrc && echo Demo Checkout && git clone https://github.com/chromium/chromium
