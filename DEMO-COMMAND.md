@@ -5,7 +5,7 @@ source/common/network/utility.cc
 bazel build //source/common/network:utility_lib
 
 #### bazel test
-bazel build //test/mocks/access_log:access_log_mocks
+bazel build //test/common/network:utility_test
 
 #### static analysis
 cpplint source/common/network/utility.cc
