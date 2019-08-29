@@ -11,7 +11,3 @@ tasks:
 # - command: . .bashrc && gp open .gitpod.yml
 # - command: . .bashrc && echo Demo Scan-Build && cd ex-scan-build && ./run.sh
 # - command: . .bashrc && echo Demo Checkout && git clone https://github.com/chromium/chromium
-
-vscode:
-  extensions:
-    - xaver.clang-format@1.9.0:auCYfQ5pnsZ6Cjf4ZxkAtA==
