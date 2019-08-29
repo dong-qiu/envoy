@@ -5,7 +5,7 @@ source/common/network/utility.cc
 cpplint source/common/network/utility.cc
 
 #### bazel build
-bazel build //source/common/network:utility_lib
+./build.sh
 
 #### bazel test
-bazel build //test/common/network:utility_test
+./test.sh
