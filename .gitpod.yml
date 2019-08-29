@@ -3,8 +3,8 @@ image:
 tasks:
 # - command: . .bashrc && echo Demo Bazel && ./run.sh
   - command: . .bashrc && gp open DEMO-COMMAND.md
-  - command: . .bashrc && ./build.sh
-  - command: . .bashrc && ./test.sh
+  - command: . .bashrc && chomd +x build.sh && ./build.sh
+  - command: . .bashrc && chomd +x test.sh && ./test.sh
 # - command: . .bashrc && gp open Dockerfile
 # - command: . .bashrc && gp open .gitpod.yml
 # - command: . .bashrc && echo Demo Scan-Build && cd ex-scan-build && ./run.sh
