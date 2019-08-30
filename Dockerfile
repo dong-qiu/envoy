@@ -9,6 +9,7 @@ RUN apt-get install -y clang
 RUN apt-get install -y clang-tools
 RUN apt-get install -y clang-format
 RUN apt-get install -y python-pip
+RUN apt-get install -y cloc
 RUN pip install cpplint
 RUN apt-get install -y graphviz
 RUN apt-get install -y ninja-build
