@@ -4,8 +4,8 @@ tasks:
 # - command: . .bashrc && echo Demo Bazel && ./run.sh
   - command: . .bashrc && gp open DEMO-COMMAND.md
     name: demo-script
-  - init: . .bashrc && chmod +x build.sh && ./build.sh
-    command: chmod +x test.sh && ./test.sh
+  - command: . .bashrc && chmod +x build.sh && chmod +x test.sh  && ./build.sh
+#   command: chmod +x test.sh && ./test.sh
     name: prebuild
 # - command: . .bashrc && gp open Dockerfile
 # - command: . .bashrc && gp open .gitpod.yml
