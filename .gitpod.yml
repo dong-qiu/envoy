@@ -3,6 +3,7 @@ image:
 tasks:
 # - command: . .bashrc && echo Demo Bazel && ./run.sh
   - command: . .bashrc && gp open DEMO-COMMAND.md
+  - command: . .bashrc && apt-get install cloc
     name: demo-script
   - command: . .bashrc && chmod +x build.sh && chmod +x test.sh  && ./build.sh
 #   command: chmod +x test.sh && ./test.sh
