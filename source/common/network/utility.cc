@@ -44,6 +44,7 @@ const std::string Utility::UNIX_SCHEME = "unix://";
 
 Address::InstanceConstSharedPtr Utility::resolveUrl(const std::string& url) {
   if (urlIsTcpScheme(url)) {
+    std::cout << "Hello SE 2.0" << std::endl;
     return parseInternetAddressAndPort(url.substr(TCP_SCHEME.size()));
   } else if (urlIsUdpScheme(url)) {
     return parseInternetAddressAndPort(url.substr(UDP_SCHEME.size()));
