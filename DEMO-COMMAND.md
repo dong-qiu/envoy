@@ -10,5 +10,5 @@ cpplint source/common/network/utility.cc
 #### bazel test
 ./test.sh
 
-#### markdown-format
+#### clang-format
 shift + alt + f
