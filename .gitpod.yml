@@ -1,12 +1,12 @@
 image:
   file: Dockerfile
-tasks:
+# tasks:
 # - command: . .bashrc && echo Demo Bazel && ./run.sh
-  - command: . .bashrc && gp open DEMO-COMMAND.md
-    name: demo-script
-  - command: . .bashrc && chmod +x build.sh && chmod +x test.sh  && ./build.sh
+# - command: . .bashrc && gp open DEMO-COMMAND.md
+#    name: demo-script
+# - command: . .bashrc && chmod +x build.sh && chmod +x test.sh  && ./build.sh
 #   command: chmod +x test.sh && ./test.sh
-    name: prebuild
+#    name: prebuild
 # - command: . .bashrc && gp open Dockerfile
 # - command: . .bashrc && gp open .gitpod.yml
 # - command: . .bashrc && echo Demo Scan-Build && cd ex-scan-build && ./run.sh
